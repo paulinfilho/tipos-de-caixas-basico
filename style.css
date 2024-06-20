@@ -1,0 +1,28 @@
+span{
+    color: coral;
+
+    width: 200px;
+    height:200px;
+}
+/* O elemento <span>, padronizado como inline pelo navegador, não consegue alterar a largura e altura.*/
+
+
+/* A propriedade 'display:block' consegue alterar a largura e altura.
+span{
+    color: coral;
+    display: block;
+    width: 200px;
+    height: 200px;
+}
+*/
+
+/* Modificando o elemento <h1> com Block para Inline e mostrando essa mudança com os parágrafos:
+
+h1 {
+    display: inline;
+}
+
+p {
+    display: inline;
+}
+*/
